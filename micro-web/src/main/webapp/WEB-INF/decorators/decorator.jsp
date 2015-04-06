@@ -13,13 +13,13 @@
 <title>Starter Template for Bootstrap - Hello world page</title>
 
 <!-- Bootstrap core CSS -->
-<link href="/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="/webjars/bootstrap/3.3.4/css/bootstrap.css" rel="stylesheet">
 
 <!-- Custom styles for this template -->
 <link href="/resources/css/starter-template.css" rel="stylesheet">
 
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="/resources/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <script src="/resources/js/ie-emulation-modes-warning.js"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -106,8 +106,8 @@
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="/resources/js/bootstrap.min.js"></script>
+		src="/webjars/jquery/1.11.1/jquery.js"></script>
+	<script src="/webjars/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="/resources/js/ie10-viewport-bug-workaround.js"></script>
 </body>
