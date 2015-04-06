@@ -11,7 +11,7 @@ public class PersonController {
     @RequestMapping(value = "/person", method = RequestMethod.GET)
     public ModelAndView hello() {
         ModelAndView mav = new ModelAndView();
-        mav.setViewName("person");
+        mav.setViewName("/person");
         
         String str = "Person : Hello World!";
         mav.addObject("message", str);
