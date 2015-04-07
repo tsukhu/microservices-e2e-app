@@ -273,7 +273,7 @@
 								</span>
 							</div> <!-- /input-group -->
 						</li>
-						<li><a href="/home"><i class="fa fa-dashboard fa-fw"></i>
+						<li><a href="/dashboard"><i class="fa fa-dashboard fa-fw"></i>
 								Dashboard</a></li>
 						<li><a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>
 								Charts<span class="fa arrow"></span></a>
@@ -320,10 +320,9 @@
 			</div>
 			<!-- /.navbar-static-side -->
 		</nav>
-		<div id="page-wrapper"></div>
-	</div>
+		
 	<!-- /#wrapper -->
-	<sitemesh:write property="body" />
+
 
 
 	<!-- Bootstrap core JavaScript
@@ -339,10 +338,10 @@
 
 	<!-- Morris Charts JavaScript -->
 	<script src="/webjars/raphaeljs/2.1.2/raphael-min.js"></script>
-	<!--    <script src="/webjars/morrisjs/0.5.1/morris.js"></script>
-    <script src="/resources/js/morris-data.js"></script> -->
+
 
 	<!-- Custom Theme JavaScript -->
 	<script src="/resources/js/sb-admin-2.js"></script>
+	<sitemesh:write property="body" />
 </body>
 </html>
