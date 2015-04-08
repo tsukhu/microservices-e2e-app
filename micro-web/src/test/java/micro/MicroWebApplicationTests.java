@@ -1,6 +1,6 @@
 package micro;
 
-import micro.DemoMVCApplication;
+import micro.MicroMVCApplication;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,9 +9,9 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = DemoMVCApplication.class)
+@SpringApplicationConfiguration(classes = MicroMVCApplication.class)
 @WebAppConfiguration
-public class DemoWebApplicationTests {
+public class MicroWebApplicationTests {
 
 	@Test
 	public void contextLoads() {
